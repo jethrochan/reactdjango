@@ -1,0 +1,90 @@
+/* SCSS Document */
+
+body {
+  background-color:#383b3f;
+  }
+
+form a {
+  margin-left: 5px;
+}
+
+.sectionFullWidthImage {
+    background-image:url("http://www.milkbardigital.com.au/wp-content/uploads/2015/11/Milkbar-Home-Background.jpg");
+    background-position:centertop;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 240px;
+    margin:0 auto;
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+
+.vessel-detail-box {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #5b616b;
+    height: 350px;
+    color: #FFF;
+}
+
+.textWhite {
+    color: #FFF;
+}
+
+.expandedBox {
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #5b616b;
+    height: auto;
+    color: #FFF;
+}
+
+.col-sm-half, .col-sm-2half, .col-sm-2half-no-padding, .col-sm-2ThreeQuarter,.col-sm-3half, .col-sm-5half, .col-sm-5ThreeQuarter, .col-sm-7half, .col-sm-8half {
+    position: relative;
+    min-height: 1px;
+    }
+
+@media (min-width: 768px) {
+    .col-sm-half, .col-sm-2half, .col-sm-2half-no-padding, .col-sm-2ThreeQuarter, .col-sm-3half, .col-sm-5half, .col-sm-5ThreeQuarter, .col-sm-7half, .col-sm-8half, .col-sm-offset-OneQuarter, .col-sm-offset-Half, .col-sm-offset-ThreeQuarter {
+        float: left;
+    }
+
+    .col-sm-half {
+        width: 4.166666666%;
+    }
+    .col-sm-2half {
+        width: 21.7%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-sm-2half-no-padding {
+        width: 21.7%;
+    }
+    .col-sm-2ThreeQuarter {
+        width: 22.91666667%;
+    }
+    .col-sm-3half {
+        width: 29.16666667%;
+    }
+    .col-sm-5half {
+        width: 45.8333333%;
+    }
+    .col-sm-5ThreeQuarter {
+        width: 47.91666667%;
+    }
+    .col-sm-7half {
+        width: 62.5%;
+    }
+    .col-sm-8half {
+        width: 70.83333333%;
+    }
+    .col-sm-offset-OneQuarter {
+        margin-left: 2.08333333%;
+    }
+    .col-sm-offset-Half {
+        margin-left: 4.16666667%;
+    }
+    .col-sm-offset-ThreeQuarter {
+        margin-left: 6.25%;
+    }
+}
